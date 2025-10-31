@@ -1,83 +1,49 @@
 export const project = [
     {
-        flexrow:"flex-row",
-        title: "DevUi",
-        cover: "/Group2.png",
-        github: "https://github.com/kumard3/dev.ui",
-        external: "https://dev-ui.vercel.app/",
-        descriptionHtml:
-            "DevUI is a free, open-source collection of UI components and templates based on Tailwind CSS.",
-        techs: ["React", "Javascript", "Next.Js", "Tailwind CSS"],
-    },
-    {
-        flexrow:"flex-row-reverse",
-        title: "DevFolio",
-        cover: "/devfolioMockup.png",
-        github: "https://github.com/kumard3/dev-folio",
-        external: "https://devfolio.kumard3.me/",
-        descriptionHtml:
-            "Devfolio is an open source application which allows developers to create a portfolio in less than 2 minutes with just their username.      ",
-        techs: ["React", "Javascript", "Vercel", "Next.Js", "Tailwind CSS"],
-    },
-    {
-        flexrow:"flex-row",
-        title: "Create Dev-starter",
-        cover: "/devStarter.png",
-        github: "https://github.com/kumard3/create-devstarter",
-        external: "https://www.npmjs.com/package/create-devstarter",
-        descriptionHtml:
-            "🏗 Personal CLI to bootstrap new starters from the given templates.",
-        techs: ["React", "npm", "npm-package"],
-    },
-    {
-        flexrow:"flex-row-reverse",
-        title: "Web3 Domains services",
-        cover: "/cool-domain.png",
-        github: "https://github.com/kumard3/cool-domains",
-        external: "https://devdomain.kumard3.me/",
-        descriptionHtml:
-            "A Web3 domain service on a Polygon Network, where you can mint your own domains as a nft.",
-        techs: ["React", "Next Js", 'Hardhat', 'Solidity'],
-    },
-    {
-        flexrow:"flex-row",
-        title: "DevBlogs",
-        cover: "/Group1.jpg",
-        github: "https://github.com/kumard3/",
-        external: "https://deepanshu-blog.vercel.app",
-        descriptionHtml:
-            "DevBlogs is a Next.Js site, where i used to write blogs about web-development and software-development.  If you want to learn something, do check this website.",
-        techs: ["React", "Typescript", "Styled JSX"],
-    },
-    {
-        flexrow:"flex-row-reverse",
-        title: "A-Lab",
-        cover: "/Group3.jpg",
+        flexrow: "flex-row",
+        title: "ChillBoard: AI-Based Digital Wellness Dashboard",
+        cover: "/chill-1.png", // Keep this for backward compatibility
+        covers: [
+            "/chill-1.png",
+            "/chill-2.png",
+            "/chill-3.png",
+            "/chill-4.png"
 
-        external: "https://a-lab.vercel.app/",
+        ],
+        github: "https://github.com/manikanta201104/ChillBoard-AI-Based-Digital-Wellness-Dashboard.git",
+        external: "https://www.chillboard.in",
         descriptionHtml:
-            "Virtual Platform designed to develop your engineering skills through lab work . Through this approach, Virtual Lab aims to ease the learning process by involving students in practical activities carried out in a virtual laboratory using technologies such as 3D and Virtual Reality.",
-        techs: ["React", "Library", "Icons"],
+            "Privacy-first wellness dashboard adopted by 200+ users to track screen time, analyze mood locally, and deliver Spotify-based recommendations. On-device mood detection via face-api.js (TensorFlow.js) with ~90% validation accuracy; signals auto-curate playlists and nudge breaks. Challenge/leaderboards with scheduled jobs and analytics boosted engagement by ~25%. Secured stack with JWT auth, bcrypt, role-based routes, CORS hardening, HTTPS, and Winston logging. Backend containerized and deployed on Render with GitHub Actions CI/CD; frontend on Vercel. Added email via AWS SES/Resend with SMTP fallback.",
+        techs: ["React.js", "Node.js/Express", "MongoDB", "TensorFlow.js", "face-api.js", "Spotify API", "Docker", "Vercel", "Render"],
     },
     {
-        flexrow:"flex-row",
-        title: "ETM Bikes",
-        external: "https://www.etmbikes.in/",
-        github: "",
-        cover: "/etm.png",
+        flexrow: "flex-row-reverse",
+        title: "ChillBoard Chrome Extension",
+        cover: "/chillboard.png",
+        covers: [
+            "/chillboard.png",
+            "/chillboard-2.png",
+            "/chillboard-3.png",
+        ],
+        github: "https://github.com/manikanta201104/Final-extension.git",
+        external: "https://chromewebstore.google.com/detail/chillboard-extension/feaegaofmcfblfmegpkliepealjhongd",
         descriptionHtml:
-            "ETM is an electric bike company. We developed a web application for them with booking the bikes pre-release and used many new technologies along with payment gateway integration.      ",
-        techs: ["Next.js", "TypeScript", "Recoil.js", "TailwindCSS", "Razorpay"],
+            "MV3 extension with 100+ installs to monitor tab usage and aggregate multi-session screen time. Accurate tracking across tab activate/update/remove and idle states; resilient offline queue with batched HTTPS sync to web dashboard every 5 minutes. JWT-based auth handshake with secure CORS flow and minimal-scope permissions; privacy-by-design (hostname-only, no full URLs). Polished popup UI (login, stats, settings) with error/telemetry hooks.",
+        techs: ["HTML", "CSS", "JavaScript", "MV3", "Chrome APIs (tabs, alarms, storage, idle)", "Node.js"],
     },
     {
-        flexrow:"flex-row-reverse",
-        title: "Expert Dental",
-        cover: "/Group4.jpg",
-        github: "https://github.com/kumard3/",
-        external: "https://www.expertdental.co.in/",
+        flexrow: "flex-row",
+        title: "File Sharing Application",
+        cover: "/file-1.png",
+        covers: [
+            "/file-1.png",
+            "/file-2.png",
+            "/file-3.png",
+        ],
+        github: "https://github.com/manikanta201104/Filesharing_frontend.git",
+        external: "https://filesharing-frontend-gg0t.onrender.com/",
         descriptionHtml:
-            "Expert Dental in Patna offers a host of treatments and cures for a wide range of dental ailments faced by the patients. Few of the dental procedures they offer range from inducing fillings and repairs in the tooth and many other dental services.",
-        techs: ["React", "Library", "Icons"],
+            "Deployed secure file-sharing app serving 50+ users weekly. Enhanced file upload/download pipeline, reducing latency by 20%.",
+        techs: ["MongoDB", "Node.js", "Express.js", "HTML/CSS"],
     },
-    
 ];

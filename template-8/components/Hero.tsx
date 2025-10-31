@@ -9,9 +9,10 @@ export default function Hero() {
       <div className="flex flex-col items-start relative ">
         <div className="flex flex-col items-start SpaceGroteskBold text-[28px] md:text-[50px] lg:text-[64px] ">
           <h1>Hello!👋🏻</h1>
-          <h1>My name is Kumar Deepanshu</h1>
+          <h1>My name is Manikanta Mettu</h1>
           <h1>
-            I'm a Front End <span className="text">Developer</span>
+            I'm a Front End <span className="text">Developer</span> & Backend{" "}
+            <span className="text">Developer</span>
           </h1>
         </div>
         <div className="bg-[#60A5FA] h-[120px] top-[200px] left-[5px] absolute w-[120px] rounded-full blur-[90px] filter "></div>

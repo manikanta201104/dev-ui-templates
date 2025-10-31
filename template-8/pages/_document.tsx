@@ -17,75 +17,75 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <title>Kumar Deepanshu</title>
+          <title>Manikanta Mettu</title>
           <meta
             name="description"
-            content="An enthusiastic front-end software engineer with more than 4 years of experience in the field."
+            content="Full‑stack developer building performant, privacy‑first products. Creator of ChillBoard (200+ users) and Chrome MV3 extension (100+ installs). React/Next.js, Node.js/Express, TypeScript, MongoDB, Tailwind, Docker."
           />
           <meta
             name="viewport"
             content="width=device-width,minimum-scale=1,initial-scale=1"
           />
           <meta property="og:type" content="website" />
-          <meta name="og:title" property="og:title" content="Kumar Deepanshu" />
+          <meta name="og:title" property="og:title" content="Manikanta Mettu" />
           <meta
             name="og:description"
             property="og:description"
-            content="An enthusiastic front-end software engineer with more than 4 years of experience in the field."
+            content="Full‑stack developer building performant, privacy‑first products. Creator of ChillBoard (200+ users) and Chrome MV3 extension (100+ installs)."
           />
           <meta
             property="og:site_name"
-            content="Kumar deepanshu Personal Portfolio"
+            content="Manikanta Mettu — Portfolio"
           />
 
-          <meta name="twitter:card" content="It is my personal portfolio" />
-          <meta name="twitter:title" content="Kumar Deepanshu" />
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content="Manikanta Mettu" />
           <meta
             name="twitter:description"
-            content="An enthusiastic front-end software engineer with more than 4 years of experience in the field."
+            content="Full‑stack developer. ChillBoard (200+ users), Chrome MV3 (100+ installs). React/Next.js, Node.js/Express, TS, MongoDB, Docker."
           />
-          <meta name="twitter:site" content="@propernoun" />
-          <meta name="twitter:creator" content="@propernounco" />
+          <meta name="twitter:site" content="" />
+          <meta name="twitter:creator" content="" />
 
           <meta
             property="og:image"
-            content="https://portfolio-templte.pages.dev/ogImage.png"
+            content="/ogImage.png"
           />
           <meta
             name="twitter:image"
-            content="https://portfolio-templte.pages.dev/ogImage.png"
+            content="/ogImage.png"
           />
 
           {/* Open Graph / Facebook */}
           <meta property="og:type" content="website" />
           <meta
             property="og:url"
-            content="https://portfolio-templte.pages.dev/"
+            content="/"
           />
-          <meta property="og:title" content="Kumar Deepanshu" />
+          <meta property="og:title" content="Manikanta Mettu" />
           <meta
             property="og:description"
-            content="An enthusiastic front-end software engineer with more than 4 years of experience in the field."
+            content="Full‑stack developer building performant, privacy‑first products. Creator of ChillBoard and Chrome MV3 extension."
           />
           <meta
             property="og:image"
-            content="https://portfolio-templte.pages.dev/ogImage.png"
+            content="/ogImage.png"
           />
-          <meta property="og:site_name" content="Kumar Deepanshu" />
+          <meta property="og:site_name" content="Manikanta Mettu" />
           {/* Twitter */}
           <meta property="twitter:card" content="summary_large_image" />
           <meta
             property="twitter:url"
-            content="https://portfolio-templte.pages.dev/"
+            content="/"
           />
-          <meta property="twitter:title" content="Kumar Deepanshu" />
+          <meta property="twitter:title" content="Manikanta Mettu" />
           <meta
             property="twitter:description"
-            content="An enthusiastic front-end software engineer with more than 4 years of experience in the field."
+            content="Full‑stack developer. ChillBoard (200+ users), Chrome MV3 (100+ installs)."
           />
           <meta
             property="twitter:image"
-            content="https://portfolio-templte.pages.dev/ogImage.png"
+            content="/ogImage.png"
           />
           <meta name="robots" content="Index" />
           <link rel="manifest" href="/manifest.json" />
