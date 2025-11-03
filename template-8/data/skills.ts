@@ -62,26 +62,6 @@ export const skills = [
         icon: "/python.svg",
         level: 70
       },
-      {
-        name: "NestJS",
-        icon: "/brands/nestjs.svg",
-        level: 55
-      },
-      {
-        name: "Redis",
-        icon: "/redis.svg",
-        level: 55
-      },
-      {
-        name: "Prisma",
-        icon: "/prisma.svg",
-        level: 55
-      },
-      {
-        name: "PostgreSQL",
-        icon: "/postgresql.svg",
-        level: 55
-      }
     ]
   },
   {
