@@ -62,10 +62,10 @@ export default function Education() {
                 )}
               </div>
               
-              <div className="relative w-[500px] h-[300px] overflow-hidden">
+              <div className="relative w-[500px] h-[300px] overflow-hidden flex items-center justify-center">
                 <img
                   src={edu.image}
-                  className="rounded-lg w-full h-full object-cover"
+                  className="rounded-lg w-full h-full object-contain bg-gray-100 dark:bg-[#1F2937] p-2"
                   alt={edu.institution}
                 />
               </div>

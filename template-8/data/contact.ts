@@ -18,14 +18,14 @@ export const contactInfo = [
     link: ""
   },
   {
-    type: "Social",
+    type: "LinkedIn",
     platform: "LinkedIn",
     value: "linkedin.com/in/manikanta2024",
     icon: "/icons/linkedin.svg",
     link: "https://www.linkedin.com/in/manikanta2024/"
   },
   {
-    type: "Social", 
+    type: "GitHub", 
     platform: "GitHub",
     value: "github.com/manikanta201104",
     icon: "/icons/github.svg",
